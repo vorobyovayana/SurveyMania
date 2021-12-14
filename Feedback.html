@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Survey Mania Feedback</title>
+	</head>
+	<body>
+		<header>
+			<img class ="logo" src = "images/Logo.png" alt="Logo Image"> 
+			<a href="index.html" class="title">SURVEY MANIA </a>
+			<nav class ="navigation_bar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Subscribe.html">Subscribe</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+					<li><a href="Feedback.html">Feedback</a></li>
+				</ul>
+			</nav>	
+		</header>
+		<hr>
+		
+		<div class="wrapper">
+			<br><br>
+			<h1 id ="h1_feedback">Your feedback is important to us</h1>
+			<br><br><br>
+			<div id = "feedback_form_loopback"><button type = "Button" name ="backtoHome_button" id ="backtoHome_button"><a href = "index.html">BACK TO HOME</a></button></div>
+			<div class = "feedback_form" id ="feedback_form">
+				<div class = "feedback_text">Name: </div>
+				<div class = "feedback_text">Email: </div>
+				<div class = "feedback_box"><input class ="feedback_input" type ="text"> </div>
+				<div class = "feedback_box"><input class ="feedback_input" type ="text"></div>
+				<div class = "feedback_text">Phone number: </div>
+				<div class = "feedback_text">Give us a rating out of 10: </div>
+				<div class = "feedback_box"><input class ="feedback_input" type ="text"></div>
+				<div class = "feedback_box"><input class ="feedback_input" type ="text"></div>
+				<div class = "feedback_text">Enter your feedback: </div>
+				<div class = "feedback_box10"><input id ="feedback_input2" type ="text"></div>
+				<div class = "feedback_box11"><input type ="checkbox" name = "anonymous" id ="anonymous"> Submit anonymously <br><br></div>
+				<div class = "feedback_box12"><button type = "Button" name ="submit_button" id ="submit_button" onclick="response_received()">SUBMIT</button></div>
+		</div>
+		<script src="script/Feedback_page.js"></script>
+	</body>
+</html>

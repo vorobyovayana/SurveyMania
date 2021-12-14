@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Survey Mania Home</title>
+	</head>
+	<body>
+		<header>
+			<img class ="logo" src = "images/Logo.png" alt="Logo Image"> 
+			<a href="index.html" class="title">SURVEY MANIA </a>
+			<nav class ="navigation_bar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Subscribe.html">Subscribe</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+					<li><a href="Feedback.html">Feedback</a></li>
+				</ul>
+			</nav>	
+		</header>
+		<hr>
+		<img class ="survey_image" src = "images/shopping.jpg"> 
+	
+		<h1 class="survey_header">Survey of shopping habbits</h1>
+		<br>
+		<br>
+
+	<div class = "question" data-role="fieldcontain">
+    <fieldset data-role="controlgroup"  data-type="horizontal" data-role="fieldcontain">
+    	<legend>Choose your sex</legend>
+    		
+         	<input type="radio" class="options" name="options1" id="radio-choice-1" value="male" required="required" />
+         	<label for="radio-choice-1">Male</label>
+
+         	<input type="radio" class="options" name="options1" id="radio-choice-2" value="Female"  />
+         	<label for="radio-choice-2">Female</label>
+         	
+         	<input type="radio" class="options" name="options1" id="radio-choice-3" value="Don't want to tell"  />
+         	<label for="radio-choice-3">Don't want to tell</label>
+    
+		
+    </fieldset>
+	</div>
+	<br><br>
+	
+	<div class = "question" data-role="fieldcontain">
+    <fieldset data-role="controlgroup"  data-type="horizontal" data-role="fieldcontain">
+    	<legend>Choose your age</legend>
+    		
+         	<input type="radio" class="options" name="options2" id="radio-choice-4" value="Less than 18"  />
+         	<label for="radio-choice-4">Less than 18</label>
+
+         	<input type="radio" class="options" name="options2" id="radio-choice-5" value="18-25"  />
+         	<label for="radio-choice-5">18-25</label>
+         	
+         	<input type="radio" class="options" name="options2" id="radio-choice-6" value="25-40"  />
+         	<label for="radio-choice-6">25-40</label>
+         	
+         	<input type="radio" class="options" name="options2" id="radio-choice-7" value="40-50"  />
+         	<label for="radio-choice-7">40-50</label>
+         	
+         	<input type="radio" class="options" name="options2" id="radio-choice-8" value="More than 50"  />
+         	<label for="radio-choice-8">More than 50</label>
+         	
+    </fieldset>
+	</div>
+	<br><br>
+	
+	<div class = "question" data-role="fieldcontain">
+    <fieldset data-role="controlgroup"  data-type="horizontal" data-role="fieldcontain">
+    	<legend>Do you prefer on-line or in-store shopping?</legend>
+         
+         	<input type="radio" class="options" name="options3" id="radio-choice-9" value="On-line" />
+         	<label for="radio-choice-9">On-line</label>
+
+         	<input type="radio" class="options" name="options3" id="radio-choice-10" value="In-Store"  />
+         	<label for="radio-choice-10">In-store</label>
+
+         	
+    </fieldset>
+	</div>
+	<br><br>
+	<div class = "question" data-role="fieldcontain">
+    <fieldset data-role="controlgroup"  data-type="horizontal" data-role="fieldcontain">
+    	<legend>How often do you shop?</legend>
+         
+         	<input type="radio" class="options" name="options4" id="radio-choice-11" value="Every day" />
+         	<label for="radio-choice-11">Every day</label>
+
+         	<input type="radio" class="options" name="options4" id="radio-choice-12" value="Several days a week"  />
+         	<label for="radio-choice-12">Several days a week</label>
+         	
+         	<input type="radio" class="options" name="options4" id="radio-choice-13" value="Once a week" />
+         	<label for="radio-choice-13">Once a week</label>
+
+         	<input type="radio" class="options" name="options4" id="radio-choice-14" value="Once every couple of weeks"  />
+         	<label for="radio-choice-14">Once every couple of weeks</label>
+         	
+         	<input type="radio" class="options" name="options4" id="radio-choice-15" value="Once a month" />
+         	<label for="radio-choice-15">Once a month</label>
+         	
+         	<input type="radio" class="options" name="options4" id="radio-choice-16" value="Less than once a month" />
+         	<label for="radio-choice-16">At night</label>
+         
+    </fieldset>
+	</div>
+	
+	<div class = "question" data-role="fieldcontain">
+    <fieldset data-role="controlgroup"  data-type="horizontal" data-role="fieldcontain">
+    	<legend>What do you shop for most often? </legend>
+         
+         	<input type="radio" class="options" name="options5" id="radio-choice-17" value="Groceries" />
+         	<label for="radio-choice-17">Groceries</label>
+
+         	<input type="radio" class="options" name="options5" id="radio-choice-18" value="Clothes"  />
+         	<label for="radio-choice-18"> Clothes</label>
+         	<input type="radio" class="options" name="options5" id="radio-choice-19" value="Home products"  />
+         	<label for="radio-choice-19"> Home products</label>
+         	<input type="radio" class="options" name="options5" id="radio-choice-20" value="Other"  />
+         	<label for="radio-choice-20"> Other</label> 
+    </fieldset>
+	</div>
+	
+	<div class="submitBtns"  data-role="fieldcontain">
+	<fieldset data-role="controlgroup"  data-type="horizontal" data-role="fieldcontain">
+	<input type = "Button" name ="submit_button" id ="submit_button" value="SUBMIT">
+	<input type="button" name ="submit_button" id ="cancel_button" value="CANCEL">
+	
+	</fieldset>	
+	</div>
+
+	<script src="script/survey.js"></script>
+	</body>
+</html>
